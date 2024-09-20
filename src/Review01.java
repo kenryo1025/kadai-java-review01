@@ -9,8 +9,8 @@ public class Review01 {
     }
 
     public static int tax(int syo) {
-        int tax_par=10;
-        int syo_tax = syo / tax_par;
+        int tax_par=8;
+        int syo_tax = (syo * tax_par)/100;
         return syo_tax;
     }
 }
